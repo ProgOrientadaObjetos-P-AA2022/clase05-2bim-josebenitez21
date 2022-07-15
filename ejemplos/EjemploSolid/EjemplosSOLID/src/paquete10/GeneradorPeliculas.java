@@ -5,11 +5,13 @@
  */
 package paquete10;
 
-public class GeneradorPeliculas {
+import java.io.Serializable;
+
+
+public class GeneradorPeliculas implements Serializable{
     
     private APIMovie llave;
     private String url;
-    
     public void establecerLlave(APIMovie l){ // APINetflix, APIAmazon
         llave = l;
     }

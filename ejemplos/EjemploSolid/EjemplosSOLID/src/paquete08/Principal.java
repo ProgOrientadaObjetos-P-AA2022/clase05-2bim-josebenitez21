@@ -16,6 +16,8 @@ public class Principal {
         ensayo.establecerPromedioEnsayo();
         System.out.println(ensayo.obtenerPromedioEnsayo());
         
+        //A posta se ha colocado mal el nombre del objeto, tener en cuenta que va 
+        //en base al contexto.
         EvaluacionObjetiva ensayo2 = new EvaluacionObjetiva();
         ensayo2.establecerNumeroPreguntas(10);
         ensayo2.establecerTotalPreguntas(30);
